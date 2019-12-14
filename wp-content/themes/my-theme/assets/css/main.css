@@ -1,0 +1,462 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #333;
+    font-family: 'dosis';
+}
+
+.header {
+    font-family: 'hind-font';
+    background: #0d7619;
+    font-size: 1.6rem;
+    text-decoration: none;
+    display: flex;
+}
+
+.header nav {
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-menu-principal-container ul {
+    list-style-type: none;
+    right: 0;
+    display: flex;
+}
+
+.menu-menu-principal-container .menu-item {
+    margin: 2.5rem 1rem 0rem;
+}
+
+.section-1 {
+    background-image: url(../img/banniere.jpg);
+    background-position: center;
+    min-height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-title {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.section-txt1 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    margin: 1rem;
+    font-weight: 500;
+}
+
+.section-txt2 {
+    color: #9acf64;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    margin: 1rem;
+    font-weight: 500;
+}
+
+.inscription-button {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #395e1d;
+    border: 1px solid #395e1d;
+    border-radius: 2rem;
+    display: inline-block;
+    padding: 0.8rem 1rem 0.8rem 1rem;
+}
+
+.section-1 p {
+    text-align: center;
+    line-height: normal;
+}
+
+.section-2 {
+    min-height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#letter-spacing {
+    letter-spacing: 0.5rem;
+    border-bottom: black 1px solid;
+    display: inline-block;
+}
+
+#section2txt {
+    padding: 1.2rem 10rem 1.2rem 10rem;
+    width: 57rem;
+    height: auto;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+.section-3 {
+    background-image: url(../img/bandeau.jpg);
+    background-position: center;
+    min-height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-4 {
+    min-height: 40rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-4-programme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.green-title {
+    color: #395e1d;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.section-4-leftpart,
+.section-4-rightpart {
+    width: 50%;
+    margin: 2rem 7rem 0rem;
+    min-height: 173px;
+}
+
+.section-4-leftpart ul,
+.section-4-rightpart ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.section-4-leftpart li,
+.section-4-rightpart li {
+    padding: 1rem 0rem 0rem;
+}
+
+.section-4 .no-space {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.plus {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+}
+
+.plus .inscription-button {
+    position: absolute;
+}
+
+#img-programme {
+    width: 20%;
+    height: 20%;
+    padding: 0rem 10rem 0rem 60rem;
+}
+
+.section-5 .orateur-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background-image: url(../img/portrait.jpg);
+}
+
+.section-5,
+.section-6 h6 {
+    text-align: center;
+}
+
+.section-5 li {
+    list-style-type: none;
+    width: 130px;
+    text-align: center;
+    margin: 40px;
+}
+
+.section-5 ul {
+    display: flex;
+}
+
+.section-5 #nom {
+    font-weight: bold;
+    color: #0d7619;
+    font-size: 1.7rem;
+    margin: 9px 0px -10px 0px;
+}
+
+.section-5 #info {
+    color: lightgray;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.section-5 a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0px 3px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.section-5 .bouton_orateur {
+    background-color: #9ACF64;
+    border-radius: 40px;
+    width: auto;
+}
+
+.section-6 .lieu {
+    background-image: url(../img/lieu.png);
+    width: auto;
+    height: 690px;
+}
+
+.section-6 .green-rectangle {
+    background-color: #9ACF64;
+    width: 450px;
+    height: 690px;
+    margin: 0px 100px;
+    color: #fff;
+    position: absolute;
+}
+
+.section-6 .bouton_carte {
+    background-color: #fff;
+    border-radius: 40px;
+    width: 150px;
+    height: 30px;
+    color: #0d7619;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    top: 90%;
+    left: 83%;
+    padding: 0px 3px;
+    font-weight: bold;
+}
+
+.section-6 a {
+    text-decoration: none;
+    color: #0d7619;
+}
+
+.section-6 .info_lieu p {
+    text-decoration: underline;
+}
+
+.section-6 .lieu p {
+    margin: 0px 0px 0px 120px;
+    width: 140px;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+.section-6 img {
+    width: 100px;
+    height: 100px;
+}
+
+.section-6 .info_lieu img,
+.info_time img,
+.info_dinner img {
+    float: left;
+}
+
+.info_lieu {
+    float: none;
+    margin: 90px 82px 40px 82px;
+    border-bottom: solid white 1px;
+    padding: 0px 0px 50px 0px;
+}
+
+.info_time {
+    float: none;
+    margin: 40px 82px 0px 82px;
+    border-bottom: solid white 1px;
+    padding: 0px 0px 50px 0px;
+}
+
+.info_dinner {
+    float: none;
+    margin: 40px 82px 0px 82px;
+    border-bottom: solid white 1px;
+    padding: 0px 0px 50px 0px;
+}
+
+.section-6 .info_time p {
+    margin: 0px 0px 0px 120px;
+    width: 160px;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+.section-6 .info_dinner p {
+    margin: 0px 0px 0px 120px;
+    width: 160px;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+.section-7 {
+    margin: 80px;
+}
+
+.section-7 p {
+    text-align: center;
+}
+
+.video1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    align-items: center;
+}
+
+.video1 h3 {
+    font-size: 1.7rem;
+    z-index: 1;
+    top: 30%;
+    left: 14%;
+    color: #fff;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 5;
+}
+
+.video1 .auteur {
+    font-size: 1.3rem;
+    z-index: 1;
+    top: 37%;
+    left: 15%;
+    color: #fff;
+    position: absolute;
+    text-transform: uppercase;
+    z-index: 5;
+}
+
+.video-container1 {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 0;
+    bottom: 0;
+    left: 27px;
+    right: 0;
+}
+
+.video2 {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    left: 50%;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    align-items: center;
+}
+
+.video2 h3 {
+    font-size: 1.7rem;
+    z-index: 1;
+    top: 57%;
+    left: 36%;
+    color: #fff;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 5;
+}
+
+.video2 .auteur {
+    font-size: 1.3rem;
+    z-index: 1;
+    top: 37%;
+    left: 15%;
+    color: #fff;
+    position: absolute;
+    text-transform: uppercase;
+    z-index: 5;
+}
+
+#auteur2{
+    text-transform: lowercase;
+    top: 70%;
+left: 43%;
+}
+
+.video-container2 {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.video-flex {
+    display: flex;
+}
+
+.video-container3 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.video3 {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    left: 50%;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    align-items: center;
+}
+
+footer {
+    color: #fff;
+    background-color: #333333;
+    height: 100px;
+    font-size: 1.5rem;
+}
+
+.footer {
+    padding: 30px 0px 30px 30px;
+    display: flex;
+    text-align: center;
+}
+
+.footer p {
+    margin: 10px;
+}
