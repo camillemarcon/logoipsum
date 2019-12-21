@@ -10,7 +10,7 @@ if ( have_posts() ) {
      * Un post est un type de contenu, par exemple une actualité ou une page
      **/
     the_post(); 
-
+s
     /**
      * La méthode the_content() affiche le contenu du post en cours
      * Il s'agit du contenu que vous avez renseigné dans le back-office
@@ -20,11 +20,10 @@ if ( have_posts() ) {
 	  
 ?>
 
-<?php
-  }
-}
-?>
+
 
 </div>
+
+<h3>ERROR 404</h3>
 
 <?php get_footer(); ?>

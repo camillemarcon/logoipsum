@@ -195,6 +195,11 @@ body {
 
 .section-5 ul {
     display: flex;
+    justify-content: center;
+}
+
+.section-5 .margin {
+    padding: 10px 40px;
 }
 
 .section-5 #nom {
@@ -403,10 +408,10 @@ body {
     z-index: 5;
 }
 
-#auteur2{
+#auteur2 {
     text-transform: lowercase;
     top: 70%;
-left: 43%;
+    left: 43%;
 }
 
 .video-container2 {
@@ -423,25 +428,232 @@ left: 43%;
     display: flex;
 }
 
+.video3-4 {
+    position: relative;
+    margin-top: 10px;
+    width: 1025px;
+    height: 193px;
+    display: flex;
+    overflow: hidden;
+    left: 2%;
+    justify-content: space-around;
+}
+
 .video-container3 {
     position: absolute;
-    width: 300px;
-    height: 100px;
+    width: 237px;
+    height: 146px;
+    top: 0;
+    bottom: 0;
+    left: 50.5%;
+    right: 0;
+}
+
+.video-container4 {
+    position: absolute;
+    width: 237px;
+    height: 146px;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
 }
 
-.video3 {
+.video3-4 .information3 h6 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.video3-4 .information3 p {
+    padding: 0;
+    margin: 0;
+}
+
+.video3-4 .information4 h6 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.video3-4 .information4 p {
+    padding: 0;
+    margin: 0;
+}
+
+.video3-4 h6 {
+    left: 5%;
+}
+
+.video5-6 {
     position: relative;
-    width: 500px;
-    height: 300px;
-    left: 50%;
-    justify-content: center;
-    align-content: center;
+    margin-top: 10px;
+    width: 1025px;
+    height: 193px;
+    display: flex;
     overflow: hidden;
-    align-items: center;
+    left: 2%;
+    justify-content: space-around;
+}
+.video5-6 .information5 h6 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.video5-6 .information5 p {
+    padding: 0;
+    margin: 0;
+}
+
+.video5-6 .information6 h6 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.video5-6 .information6 p {
+    padding: 0;
+    margin: 0;
+}
+
+.video5-6 h6 {
+    left: 5%;
+}
+
+.video-container5 {
+    position: absolute;
+    width: 237px;
+    height: 146px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.video-container6 {
+    position: absolute;
+    width: 237px;
+    height: 146px;
+    top: 0;
+    bottom: 0;
+    left: 50.5%;
+    right: 0;
+}
+
+.section-8 img {
+    height: 100px;
+    width:  130px;
+}
+
+.section-8 .button-lire {
+    border: darkgrey solid 1px;
+    color: darkgrey;
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 100px;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-align: center;
+    margin: 100px 76px 100px 67px;
+}
+
+.section-8 {
+    background-color:#f7f6f3;
+    height: 500px;
+}
+
+.section-8 p {
+    color: dimgrey;
+}
+
+.section-8 .article {
+    height: 400px; 
+    width: 220px;
+    background-color: white;
+    margin: 40px 0px 60px 40px;
+}
+
+.section-8 .article_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.section-8 p, .section-8 h3 {
+    width: 200px;
+    padding: 0px 10px;
+}
+
+.section-8 p {
+    padding: 0px 20px 25px 0px;
+}
+
+.section-8 a {
+    text-align: center;
+}
+
+.section-8 .article_flex #date {
+    font-size: 0.6rem;
+    color: darkgrey;
+    padding: 20px 0px 0px 10px;
+}
+
+.section-8 img {
+    height: 100px; 
+    width: 220px;
+    text-align: center;
+}
+
+.section-9 {
+    background-color: white;
+    height: 600px;
+}
+
+.section-9 .img {
+    display: flex;
+    justify-content: center;
+}
+
+.section-9 .upload_file1 {
+    border: double 2px grey; 
+    height: 280px;
+    width: 220px;
+    margin: 100px 20px 0px 0px;
+    padding: 16px;
+    background-image: url(../img/lieu.png);
+    background-size: cover;
+    position: relative;
+}
+
+.section-9 .img img{
+    height: 40px;
+    width: 40px;
+    margin: 0px 0px 0px 170px;
+    position: absolute;
+}
+
+.section-9 .upload_file2 {
+    border: double 2px grey; 
+    height: 280px;
+    width: 220px;
+    margin: 100px 20px 0px 0px;
+    padding: 16px;
+    background-image: url(../img/lieu.png);
+    background-size: cover;
+    position: relative;
+}
+
+.section-9 h3 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 230px 0px 0px;
+    position: absolute;
+    width: 120px;
 }
 
 footer {
